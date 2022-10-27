@@ -1,0 +1,7 @@
+<div class="form-group">
+  <label for="vin"> VIN автомобиля:</label>
+  <select formControlName="vin" id="vin">
+    <option value="null">Выберите VIN</option>
+    <option *ngFor="let userVin of userVins">{{ userVin }}</option>
+  </select>
+</div>

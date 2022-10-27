@@ -1,0 +1,12 @@
+<h1 class="title">Форма записи на доставку</h1>
+
+<hr />
+
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <app-vin></app-vin>
+  <app-name></app-name>
+  <app-tel></app-tel>
+  <app-address></app-address>
+  <app-data></app-data>
+  <button class="button" type="submit">Добавить</button>
+</form>
